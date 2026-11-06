@@ -1,0 +1,21 @@
+1. This is a review of the manuscript "Relationship betwixt projectile launch angle and trajectory's curvature" by E B Patel, submitted as a research article to J S&E. I recommend major revisions.
+
+2. Throughout the MS, odd choice of words and ornamental use of language distracts from the need for absolute clarity in technical writing and can confuse readers as to the actual findings.
+
+3. The manuscript is titled relationship between angle and curvature and written from a very mathematical perspective but the author never actually deals with either curvature (\kappa) in a mathematical sense or the radius of curvature (R=1/\kappa), so I am not sure what is meant here.
+
+4. Data should all be given in meters (SI units) rather than inches. A setup drawing is really needed to explain the data gathered, which are the heights that the shots hit a vertical target at several different distances. Using the acceleration of gravity as 386 in/s^2 in the equations hides that it is g (or factors of g in later equations) which camouflages the physics from the reader. 
+
+5. Several bits of math are included. For the compensation for the swing of the barrel, this could be in an appendix or could be shortened. It is unclear what you are doing with definitions after that.
+
+6. Results - The author says distances are in non SI units (please fix) but also that data is "plotted below with a quadratic regression applied". Figs 1-3 are illegible and are not clear what is being plotted - but the equations so far have not been strictly quadratic they include trig functions and are nonlinear if also including the height of the launcher. The author needs to explain what transfomrations, manipulations, and analyses are to be done in the methods section rather than hiding them in results.
+
+7. \hat{y}_n appears to be regressions but it is not clear what specific physics is included in each different y_n. The tables say "nearest/near/mid/far trials' metings" - what is meant here? While it is probably mathematically/statistically fun to drop units and treat all the parameters as various q_i in physics this is highly unusual as we want to know what each of this means in a physical sense.
+
+8. Table 6 lists  negative R^2 with magnitudes much greater than 1 - what is meant by your R^2 here? It appears to show as parameters are added R^2 gets smaller but what of overfitting here? There are more conventional ways to compare different models and the message (at least from physics point of view) is lost here.
+
+9. The author makes statements about d^2y/dx^2 and d^3y/dx^3 - but these are not "curvature" either. On page 10 the use of the \nabla operator here is unclear what is being done with a trajectory y(x,\theta).
+
+10. The author seems to want to take the work towarsd a purely statistical/mathematical description - this may be OK but the connections with physics seem obscured and hard to follow the way the discussion and analyses are structured. If the author wishes to develop a novel statistical way of seeing this situation that is welcome but it needs to be more clear before it is ready for primetime. 
+
+11. Only a single reference is given. No mention is made of if the raw data are available, or the analysis codes. This is normally provided for transparency of the work. 
